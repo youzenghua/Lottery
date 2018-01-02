@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>大西瓜抽奖咯</title>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/FileSaver.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/men.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<h1><img src="img/bg.png"/></h1>
+		<div id="mainbox">
+			<button id="showbox" title="点击切换奖项">选择奖项</button>
+			<div id="cbox">
+				请点击抽奖按钮
+			</div>
+			<button id="btn">抽奖</button>
+		</div>
+
+		<h2 id="lucktitle">↓中奖名单↓</h2>
+
+		<div id="resbox">
+
+		</div>
+		<div class="jp">
+			<div>
+				<p>一等奖：大西瓜</p>
+				<img src="img/jp.jpg" />
+			</div>
+			<div>
+				<p>二等奖：二西瓜</p>
+				<img src="img/jp.jpg" />
+			</div>
+			<div>
+				<p>三等奖：傻西瓜</p>
+				<img src="img/jp.jpg" />
+			</div>
+		</div>
+		<div id="mask">
+			<ul class="typebox">
+				<li data-count="2">一等奖</li><!--data-count:表示奖项对应的抽中人数-->
+				<li data-count="4">二等奖</li>
+				<li data-count="5">三等奖</li>
+			</ul>
+		</div>
+	</body>
+
+</html>
