@@ -1,3 +1,4 @@
+//Code By 密斯特游. youzenghua@163.com
 $(function() {
 	var all = []; //所有参与人
 	var filter = []; //中奖人缓存
